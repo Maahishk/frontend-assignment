@@ -1,6 +1,6 @@
 "use client";
 
-import { useStore } from "@/src/store";
+import { useStore } from "@/stores/store";
 import { useRef } from "react";
 
 function StoreInitializer({ name, price }: { name: string; price: number }) {

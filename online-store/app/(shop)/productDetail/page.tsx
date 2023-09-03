@@ -6,7 +6,7 @@ import { useRecoilState } from "recoil";
 import { ProductDetail } from "@/components/product/ProductDetail";
 import Providers from "@/utils/QueryProvider";
 import { Products } from "@/type";
-import { useProductStore } from "@/src/productStore";
+import { useProductStore } from "@/stores/productStore";
 import { useQuery } from "@tanstack/react-query";
 
 const ProductInfo = () => {

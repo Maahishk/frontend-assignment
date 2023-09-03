@@ -3,7 +3,7 @@
 import React from "react";
 import type { NextPage } from "next";
 
-import { useStore } from "@/src/store";
+import { useStore } from "@/stores/store";
 
 const CartsPage = () => {
   const cartTotal = useStore((state) => state.cartTotal);
